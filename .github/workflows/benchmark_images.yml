@@ -1,0 +1,87 @@
+name: image-model-benchmark
+on:
+  workflow_dispatch:
+    inputs:
+      scenes_mode:
+        description: "How many scenes from UW9UwzeFVEk to generate per model?"
+        type: choice
+        default: sample_3
+        options:
+          - sample_3
+          - hook_only
+          - all_12_wide
+          - all_25
+      models_to_test:
+        description: "Which free image models to test? (all = every model, cloudflare_only = 5 CF models, or comma-separated keys)"
+        type: string
+        default: "all"
+      shot_types:
+        description: "Shot types to generate when running all scenes (wide = 12 wide shots, both = 25 wide + close-up + prediction)"
+        type: choice
+        default: wide
+        options:
+          - wide
+          - both
+      video_url:
+        description: "YouTube Video URL (defaults to Pati Brahmachari Ep 453: https://www.youtube.com/watch?v=UW9UwzeFVEk)"
+        type: string
+        default: "https://www.youtube.com/watch?v=UW9UwzeFVEk"
+
+permissions:
+  contents: write
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      PYTHONUNBUFFERED: "1"
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run Multi-Model Image Generation Benchmark
+        env:
+          SCENES_MODE: ${{ inputs.scenes_mode || 'sample_3' }}
+          MODELS_TO_TEST: ${{ inputs.models_to_test || 'all' }}
+          SHOT_TYPES: ${{ inputs.shot_types || 'wide' }}
+          VIDEO_URL: ${{ inputs.video_url || 'https://www.youtube.com/watch?v=UW9UwzeFVEk' }}
+          # 1. Cloudflare Workers AI (Primary Account + Optional 2nd Free Account)
+          CF_ACCOUNT_ID: ${{ secrets.CF_ACCOUNT_ID }}
+          CF_API_TOKEN: ${{ secrets.CF_API_TOKEN }}
+          CF_ACCOUNT_ID_2: ${{ secrets.CF_ACCOUNT_ID_2 }}
+          CF_API_TOKEN_2: ${{ secrets.CF_API_TOKEN_2 }}
+          # 2. Pollinations.ai (Optional token for higher rate limits)
+          POLLINATIONS_TOKEN: ${{ secrets.POLLINATIONS_TOKEN }}
+          # 3. AI Horde (Optional key; works anonymously with 0000000000 if unset)
+          AI_HORDE_API_KEY: ${{ secrets.AI_HORDE_API_KEY }}
+          # 4. Hugging Face Spaces ZeroGPU (Optional free read token for higher ZeroGPU quota)
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}
+          # 5. Gemini API Key (Only needed if you change video_url to a different episode)
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/benchmark_models.py
+
+      - name: Print Benchmark Report to GitHub Actions Job Summary
+        if: always()
+        run: |
+          if [ -f "output/BENCHMARK_REPORT.md" ]; then
+            cat output/BENCHMARK_REPORT.md >> $GITHUB_STEP_SUMMARY
+            cat output/BENCHMARK_REPORT.md
+          fi
+
+      - name: Upload Generated Images & Side-by-Side Comparison Sheets
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: image-benchmark-outputs-${{ github.run_id }}
+          path: output/
+          retention-days: 14

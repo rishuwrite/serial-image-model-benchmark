@@ -1,0 +1,160 @@
+{
+  "video_id": "UW9UwzeFVEk",
+  "video_url": "https://www.youtube.com/watch?v=UW9UwzeFVEk",
+  "show_key": "patibrahma",
+  "show_en": "Pati Brahmachari",
+  "show_hi": "पति ब्रह्मचारी",
+  "source_episode": "453",
+  "target_episode": "455",
+  "source_date": "28 Oct 2026",
+  "characters": [
+    {
+      "key": "suraj",
+      "name": "सूरज",
+      "visual": "A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist"
+    },
+    {
+      "key": "isha",
+      "name": "ईशा",
+      "visual": "A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead"
+    },
+    {
+      "key": "bunty",
+      "name": "बंटी",
+      "visual": "A 24-year-old cheerful Indian man with tousled black hair, clean-shaven face, wearing a bright mustard yellow cotton kurta with a denim vest and a silver chain"
+    },
+    {
+      "key": "riya",
+      "name": "रिया",
+      "visual": "A 22-year-old stylish Indian woman with shoulder-length layered dark hair, wearing a pastel pink and silver lehenga choli with delicate pearl earrings"
+    },
+    {
+      "key": "sarla",
+      "name": "ताई माँ",
+      "visual": "A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi"
+    },
+    {
+      "key": "nirmala",
+      "name": "निर्मला जी",
+      "visual": "A 60-year-old ascetic Indian fortune-teller woman with intense dark eyes, grey hair covered by a saffron shawl, rudraksha beads around her neck, and ash tilak on her forehead"
+    }
+  ],
+  "hook": "करवा चौथ के जश्न के बीच ईशा के हाथों की टूटी लकीरों ने सुनाया ऐसा खौफ़नाक सच कि सूरज के साथ उसका रिश्ता फिर ख़तरे में पड़ गया!",
+  "headline": "करवा चौथ पर ब्रह्मचर्य का नया शाप!",
+  "thumb_text": "फिर टूटेगा रिश्ता?",
+  "hook_scene": 7,
+  "scenes": [
+    {
+      "title": "गले का निशान और छेड़छाड़",
+      "narration": "सुबह ताई माँ ईशा से खुशखबरी की बात छेड़ती हैं, तभी सूरज अपने गले का निशान छुपाने के चक्कर में ईशा से टकरा जाता है और दोनों में मीठी नोकझोंक होती है।",
+      "emotion": "romantic",
+      "image_prompt": "Wide shot of a bright traditional Indian courtyard in the morning, A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist awkwardly holding his collar to hide a mark on his neck while bumping into A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead as A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi watches with a fond smile",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead blushing and playfully scolding with expressive eyes in warm morning sunlight"
+    },
+    {
+      "title": "कमरे में निशान छुपाने की कोशिश",
+      "narration": "कमरे में सूरज और ईशा बैंडेज और मेकअप से गले का निशान छुपाने की कोशिश करते हैं, और दोनों के बीच प्यार भरी नज़दीकियाँ बढ़ जाती हैं।",
+      "emotion": "romantic",
+      "image_prompt": "Wide shot inside a cozy Indian bedroom decorated with marigold garlands, A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead holding a small makeup compact and dabbing the neck of A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist as they gaze romantically at each other near a dressing mirror",
+      "closeup_prompt": "Close-up of A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist smiling softly with romantic affection in warm indoor light"
+    },
+    {
+      "title": "बंटी का झूठा व्रत और शर्त",
+      "narration": "उधर बंटी भगवान से जल्दी शादी की डील करता है और रिया को खुश करने के लिए करवा चौथ का व्रत रखने का दावा करता है, पर रिया बताती है कि शाम को मर्दों की एंट्री बंद है।",
+      "emotion": "happy",
+      "image_prompt": "Wide shot near a small home temple shrine, A 24-year-old cheerful Indian man with tousled black hair, clean-shaven face, wearing a bright mustard yellow cotton kurta with a denim vest and a silver chain folding hands dramatically while A 22-year-old stylish Indian woman with shoulder-length layered dark hair, wearing a pastel pink and silver lehenga choli with delicate pearl earrings laughs and crosses her arms playfully",
+      "closeup_prompt": "Close-up of A 24-year-old cheerful Indian man with tousled black hair, clean-shaven face, wearing a bright mustard yellow cotton kurta with a denim vest and a silver chain grinning mischievously with raised eyebrows"
+    },
+    {
+      "title": "ताई माँ का मज़ेदार प्रैंक",
+      "narration": "आख़िर औरतों का सीक्रेट प्लान क्या है? जब सूरज और बंटी आवाज़ बदलकर फ़ोन करते हैं, तो ताई माँ उन्हें पकड़ लेती हैं और पतियों के पुतले जलाने की झूठी कहानी सुनाकर डरा देती हैं!",
+      "emotion": "shock",
+      "image_prompt": "Wide shot of a two-story Indian house courtyard, A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist and A 24-year-old cheerful Indian man with tousled black hair, clean-shaven face, wearing a bright mustard yellow cotton kurta with a denim vest and a silver chain hiding below a balcony holding a phone in shock while A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi looks down from the balcony laughing",
+      "closeup_prompt": "Close-up of A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi holding a phone and smirking playfully from the upper balcony"
+    },
+    {
+      "title": "घूँघट में सूरज और बंटी की एंट्री",
+      "narration": "सच जानने और अपनी पत्नियों से मिलने के लिए सूरज और बंटी लंबा घूँघट ओढ़कर पड़ोस की औरतों के भेष में करवा चौथ के प्रोग्राम में घुस जाते हैं।",
+      "emotion": "happy",
+      "image_prompt": "Wide shot of a festive Karwa Chauth gathering in an Indian living room filled with women in colorful sarees, two tall figures draped in bright orange and green sarees with long veils pulled completely over their faces walking in awkwardly while A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi greets them curiously",
+      "closeup_prompt": "Close-up of a tall man disguised under a translucent orange saree veil peeking out nervously with a mustache barely visible beneath the fabric"
+    },
+    {
+      "title": "ईशा के पैरों में सूरज का आलता",
+      "narration": "घूँघट की आड़ में सूरज बड़े प्यार से ईशा के पैरों में सुंदर आलता लगाता है, और उसकी छुअन से ईशा के दिल में एक अनोखा एहसास जाग उठता है।",
+      "emotion": "romantic",
+      "image_prompt": "Wide shot of a festive Indian hall decorated with diyas and flowers, A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead sitting on a velvet seat with her foot resting on a brass plate while a veiled figure in an orange saree gently paints red alta on her feet",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead looking down with a tender emotional smile as red alta is painted on her foot"
+    },
+    {
+      "title": "निर्मला जी की रहस्यमयी एंट्री",
+      "narration": "लेकिन यह खुशी ज़्यादा देर नहीं टिकती! तभी पुराने मंदिर की कुटिया से भाग्य देखने वाली निर्मला जी वहाँ आती हैं और ईशा का हाथ देखकर चौंक जाती हैं।",
+      "emotion": "tense",
+      "image_prompt": "Wide shot of the festive Indian courtyard suddenly falling quiet as A 60-year-old ascetic Indian fortune-teller woman with intense dark eyes, grey hair covered by a saffron shawl, rudraksha beads around her neck, and ash tilak on her forehead enters and examines the palm of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead",
+      "closeup_prompt": "Close-up of A 60-year-old ascetic Indian fortune-teller woman with intense dark eyes, grey hair covered by a saffron shawl, rudraksha beads around her neck, and ash tilak on her forehead staring at an open palm with a grave, fearful expression"
+    },
+    {
+      "title": "टूटी लकीरें और ब्रह्मचर्य की भविष्यवाणी",
+      "narration": "निर्मला जी चेतावनी देती हैं कि ईशा की हथेलियों की लकीरें टूटी हैं—सूरज के ब्रह्मचर्य का योग अभी टला नहीं है और दोनों का अलग होना तय है!",
+      "emotion": "shock",
+      "image_prompt": "Wide dramatic shot in an Indian courtyard with dark storm clouds gathering overhead and diyas flickering in the wind, A 60-year-old ascetic Indian fortune-teller woman with intense dark eyes, grey hair covered by a saffron shawl, rudraksha beads around her neck, and ash tilak on her forehead pointing prophetically while A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead steps back in tears and shock",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead with tears in her wide shocked eyes as wind blows her hair"
+    },
+    {
+      "title": "बेमौसम तूफ़ान और ईशा का चक्कर",
+      "narration": "अचानक बेमौसम आंधी-तूफ़ान चलने लगता है, निर्मला जी गायब हो जाती हैं, और घबराहट व निर्जला व्रत के कारण ईशा चक्कर खाकर गिरने लगती है।",
+      "emotion": "sad",
+      "image_prompt": "Wide shot of a windy Indian courtyard with flower petals blowing through the air, A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead fainting dizzyingly as A 55-year-old traditional Indian matriarch with silver-streaked hair tied in a neat bun, wearing an ivory and gold border cotton saree, reading glasses, and a large maroon bindi rushes forward to catch her",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead looking pale and dizzy with closed eyes"
+    },
+    {
+      "title": "घूँघट खुला और औरतों की सज़ा",
+      "narration": "इसी हंगामे में सूरज और बंटी का घूँघट खुल जाता है! सूरज ईशा को देवी बताकर सबका दिल जीत लेता है, पर सज़ा में दोनों को सारी औरतों के पैरों में आलता लगाना पड़ता है।",
+      "emotion": "happy",
+      "image_prompt": "Wide shot of an Indian courtyard where A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist and A 24-year-old cheerful Indian man with tousled black hair, clean-shaven face, wearing a bright mustard yellow cotton kurta with a denim vest and a silver chain hold discarded saree veils sheepishly while a circle of laughing Indian women point at bowls of red alta",
+      "closeup_prompt": "Close-up of A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist smiling sincerely with folded hands in front of the family"
+    },
+    {
+      "title": "ईशा का डर और सूरज का श्रृंगार",
+      "narration": "शाम को सूरज अपने हाथों से ईशा का करवा चौथ का श्रृंगार करता है, तब डरी हुई ईशा उसे फ़कीर बाबा और निर्मला जी की एक जैसी भविष्यवाणी के बारे में बताती है।",
+      "emotion": "sad",
+      "image_prompt": "Wide shot of a warmly lit Indian bedroom in the evening, A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist gently placing a gold necklace around A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead who looks up at him with tearful worried eyes",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead looking anxious and emotional in soft candlelight"
+    },
+    {
+      "title": "सूरज का वादा और ईशा का इज़हार",
+      "narration": "सूरज ईशा का डर दूर करते हुए आख़िरी साँस तक साथ निभाने का वादा करता है, और ईशा उसके गले लगकर पहली बार अपने दिल के प्यार का इज़हार कर देती है!",
+      "emotion": "romantic",
+      "image_prompt": "Wide shot of a romantic candlelit Indian bedroom balcony under the night sky, A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead embracing A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist tightly with tears of relief and love",
+      "closeup_prompt": "Close-up of A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead and A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist hugging emotionally in warm golden light"
+    }
+  ],
+  "cliffhanger": "ईशा ने सूरज से अपने प्यार का इज़हार तो कर दिया, लेकिन उसके हाथों की टूटी लकीरें और निर्मला जी की चेतावनी अब भी एक बड़े तूफ़ान का इशारा कर रही हैं।",
+  "prediction": [
+    "शायद करवा चौथ की पूजा के दौरान कोई ऐसी अनहोनी या पुरानी शर्त सामने आएगी जिससे सूरज और ईशा के रिश्ते की कड़ी परीक्षा होगी।",
+    "हो सकता है सूरज अपनी मोहब्बत और विश्वास से इस ब्रह्मचर्य के शाप को हमेशा के लिए झूठा साबित करने की कोशिश करे।"
+  ],
+  "prediction_image_prompt": "Wide shot of A 28-year-old Indian man with short thick black hair, a neat mustache and light stubble, wearing a warm maroon kurta with rolled-up sleeves and a sacred red thread tied around his right wrist and A 25-year-old Indian woman with long dark wavy hair, wearing a crimson and gold embroidered silk saree, gold jhumka earrings, red glass bangles, and a small red bindi on her forehead holding a glowing brass diya together against a dramatic stormy night sky with a mysterious silhouette in the background",
+  "keywords": [
+    "Pati Brahmachari",
+    "पति ब्रह्मचारी",
+    "Pati Brahmachari Episode 453",
+    "Pati Brahmachari 28 Oct 2026",
+    "Pati Brahmachari Karwa Chauth episode",
+    "Suraj and Isha love story",
+    "Dangal TV serial update",
+    "Pati Brahmachari full episode summary",
+    "सूरज और ईशा",
+    "पति ब्रह्मचारी आज का एपिसोड",
+    "Pati Brahmachari upcoming twist",
+    "Pati Brahmachari Episode 455 prediction",
+    "Isha Karwa Chauth vrat",
+    "Dangal TV Pati Brahmachari",
+    "Hindi serial recap",
+    "आज की कहानी",
+    "सीरियल अपडेट",
+    "Pati Brahmachari promo",
+    "Suraj Isha romance",
+    "Bunty Riya comedy"
+  ]
+}
